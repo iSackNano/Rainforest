@@ -1,0 +1,36 @@
+.buy-selection
+{
+  border-style: groove;
+}
+
+.stock
+{
+  color: #007600;
+  font-weight: bold;
+}
+
+.main-img
+{
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  /*border-style: groove;*/
+}
+
+.comp-img
+{
+  width: 100px;
+}
+
+.img-selector
+{
+  display: inline-block;
+  height: 50px;
+  width:50px;
+  object-fit: contain;
+  border-style: groove;
+}
+
+button{
+  width:100%;
+}

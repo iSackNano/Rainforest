@@ -1,0 +1,17 @@
+<div class="row">
+
+  <div class="col-sm-2 container">
+    <img [src]="product.images[0].imageUrl"
+         [title]="product.Name"
+         [routerLink]="['/product', product.ID]" />
+  </div>
+    <div class="col-sm-10">
+      <a [routerLink]="['/product', product.ID]">{{product.Name}}</a>
+      <star [rating]="product.rating"></star>
+      <h5>£{{product.price}}</h5>
+      <p>{{product.DateOfRelease}}</p>
+      <p>{{product.shortDescription}}</p>
+      <button class="btn btn-secondary colour-comp" (click)="handleAddBasket()">Add to basket</button>
+    </div>
+
+</div>

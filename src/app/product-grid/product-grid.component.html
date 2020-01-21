@@ -1,0 +1,12 @@
+<div>
+    <img [src]="product.images[0].imageUrl"
+         [title]="product.Name"
+         [routerLink]="['/product', product.ID]" />
+
+  <a [routerLink]="['/product', product.ID]">{{product.Name}}</a>
+
+  <star [rating]="product.rating"></star>
+  <h5>£{{product.price}}</h5>
+  <button class="btn btn-secondary colour-comp" (click)="handleAddBasket()">Add to basket</button>
+</div>
+<hr *ngIf="displayLine"/>  

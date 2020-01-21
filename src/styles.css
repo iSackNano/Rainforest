@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.colour-primary
+{
+  background-color: #008ECC;
+}
+
+.colour-secondary
+{
+  background-color: #73C2FB;
+}
+
+.colour-tertiary
+{
+  background-color: #89CFEF;
+}
+
+.colour-comp
+{
+  color: #8B6015;
+  background-color: #FFD000;
+}
+
+.price
+{
+  color: #B12704;
+  font-weight: bold;
+}
+
+.white-selection
+{
+  padding: 5px;
+  background-color: white;
+  border-style: groove;
+}

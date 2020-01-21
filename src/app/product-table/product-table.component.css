@@ -1,0 +1,12 @@
+.container
+{
+  height: 300px;
+}
+
+img
+{
+  width: 100%;
+  cursor: pointer;
+  max-height: 300px;
+  object-fit: contain;
+}

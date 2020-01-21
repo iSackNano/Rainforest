@@ -1,0 +1,16 @@
+img
+{
+  width: 100%;
+  cursor: pointer;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.stock
+{
+  color: #007600;
+}
+
+button{
+  width:100%;
+}

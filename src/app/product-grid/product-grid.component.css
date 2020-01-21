@@ -1,0 +1,13 @@
+button
+{
+  width:100%;
+}
+
+img
+{
+  width: 100%;
+  cursor: pointer;
+  max-height: 200px;
+  min-height: 150px;
+  object-fit: contain;
+}

@@ -1,0 +1,85 @@
+<div class="row">
+  <div class="col-lg-9 col-md-8">
+    <div class="white-selection">
+      <div *ngIf="basket && basket.length">
+        <table class="table table-responsive">
+          <thead>
+            <tr>
+              <th colspan="2"><h3>Shopping Basket</h3></th>
+              <th>Price</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr *ngFor="let product of basket">
+              <td width="20%">
+                <img [src]="product.images[0].imageUrl"
+                     [title]="product.Name"
+                     [routerLink]="['/product', product.ID]" />
+              </td>
+              <td>
+                <a [routerLink]="['/product', product.ID]">{{product.Name}}</a>
+                <star [rating]="product.rating"></star>
+                <p class="stock">In Stock</p>
+                <p>
+                  Quantity:
+                  <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                  <a [routerLink]="['/basket']" (click)="removeProduct()" style="padding: 10px">Remove</a>
+                </p>
+              </td>
+              <td>
+                <h5 class="price">£{{product.price}}</h5>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+        <br />
+        <h6 style="text-align: end">
+          Subtotal ({{basketSize}} items):
+          <span class="price">£{{subtotal}}</span>
+        </h6>
+      </div>
+      <div *ngIf="basket && !basket.length">
+        <h4>Add products to see them in the basket</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-4">
+    <div class="white-selection">
+      <h6>
+        Subtotal ({{basketSize}} items):
+        <span class="price">£{{subtotal}}</span>
+      </h6>
+      <br />
+      <button class="btn btn-primary colour-comp" [routerLink]="['/checkout']">Proceed to checkout</button>
+    </div>
+    <br />
+    <div class="white-selection">
+      <h5>Your recently viewed items</h5>
+      <div *ngFor="let product of recentViewed">
+        <product-grid displayLine="true" [product]="product"></product-grid>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br />
+<div class="row">
+  <div class="col-12">
+    <div class="white-selection">
+      <h4>Frequently Bought Together</h4>
+      <div class="row">
+        <div *ngFor="let product of frequentlyBought" class="col-lg-2 col-md-4 col-sm-6 col-12">
+          <product-grid [product]="product"></product-grid>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

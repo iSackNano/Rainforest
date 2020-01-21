@@ -1,0 +1,108 @@
+  <div class="row">
+    <!-- displays the image section -->
+    <div class="col-md-6">
+      <div class="white-selection">
+        <div>
+          <img [src]="displayImageUrl"
+               [title]="product.Name"
+               class="main-img" />
+        </div>
+
+        <img [src]="image.imageUrl"
+             [title]="product.Name"
+             class="img-selector"
+             *ngFor="let image of product.images; index as i"
+             (mouseenter)="mouseEnter(i)" (mouseleave)="mouseLeave()" (click)="click()" />
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="white-selection">
+        <!-- displays the info section -->
+        <h5>{{product.Name}}</h5>
+        <hr />
+        <star [rating]="product.rating"></star>
+        <p>
+          Price:
+          <span class="price">£{{product.price}}</span>
+        </p>
+
+        <ul>
+          <li *ngFor=" let spec of product.specs">{{spec.Description}}</li>
+        </ul>
+        <p>{{product.shortDescription}}</p>
+      </div>
+    </div>
+
+    <div class="col-md-2 ">
+      <div class="white-selection">
+        <!-- diplays the buying section -->
+        <h6 class="price">£{{product.price}}</h6>
+        <p>& FREE Delivery <a href="">Delivery Details</a></p>
+
+        <p class="stock">In Stock</p>
+
+        <p>
+          Quantity:
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+
+        </p>
+
+        <button class="btn btn-secondary colour-comp" (click)="handleAddBasket()">Add to Basket</button>
+        <br />
+        <br />
+        <button class="btn btn-secondary colour-comp" (click)="handleCheckout()">Buy Now</button>
+      </div>
+    </div>
+
+  </div>
+  <br />
+  <div class="row white-selection">
+    <!-- Displays the product comparison section -->
+    <table class="table table-striped">
+      <tbody>
+        <tr>
+          <td></td>
+          <td *ngFor="let product of relatedProducts">
+            <a [routerLink]="['/product', product.ID]">{{product.Name}}</a>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td *ngFor="let test of relatedProducts">
+            <img [src]="test.images[0].imageUrl"
+                 class="comp-img"
+                 [routerLink]="['/product', test.ID]" />
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td *ngFor="let product of relatedProducts">
+            <button class="btn btn-secondary colour-comp" (click)="handleComparisonAdd(product.ID)">Add to Basket</button>
+          </td>
+
+        </tr>
+
+        <tr>
+          <td>Customer Rating</td>
+          <td *ngFor="let product of relatedProducts">
+            <star [rating]="product.rating"></star>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Price</td>
+          <td *ngFor="let product of relatedProducts" class="price">
+            £{{product.price}}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>

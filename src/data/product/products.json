@@ -1,0 +1,410 @@
+[
+  {
+    "ID": 1,
+    "Name": "Fossil Mens Chronograph Watch",
+    "DateOfRelease": "03/05/2019",
+    "price": 70.96,
+    "imageUrl": "assets/images/Fossil.png",
+    "rating": 4.5,
+    "shortDescription": "This 42mm Chase Timer features a cream brushed dial with Arabic numerals, two sub-eye chronograph movement and brown leather strap.",
+    "images": [
+      {
+        "imageUrl": "assets/images/Fossil1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Fossil2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Fossil3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Case Material",
+        "Description": "Stainless Steel"
+      },
+      {
+        "Name": "Band Material",
+        "Description": "Leather"
+      },
+      {
+        "Name": "Weight",
+        "Description": "59 grams"
+      }
+    ],
+    "type": "Watch"
+  },
+  {
+    "ID": 2,
+    "Name": "Fitbit Inspire Health",
+    "DateOfRelease": "03/05/2019",
+    "price": 49.99,
+    "rating": 4.5,
+    "shortDescription": "Get empowered to make a change and embrace your weight and fitness goals with activity and sleep tracking, calories burned & more on easy-to-use Fitbit Inspire and Fitbit Inspire HR. These trackers are easy to use thanks to a touchscreen, backlit display and on-screen dashboard that helps you track sleep, activity and more, all from your wrist.",
+    "images": [
+      {
+        "imageUrl": "assets/images/FitBit1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/FitBit2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/FitBit3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Case Material",
+        "Description": "Plastic"
+      },
+      {
+        "Name": "Band Material",
+        "Description": "Rubber"
+      },
+      {
+        "Name": "Weight",
+        "Description": "42 grams"
+      }
+    ],
+    "type": "Watch"
+  },
+  {
+    "ID": 3,
+    "Name": "Superdry Men's Analogue Quartz Watch",
+    "DateOfRelease": "03/05/2019",
+    "price": 24.99,
+    "rating": 2.8,
+    "shortDescription": "Superdry Men's Urban Watch SYG189OB",
+    "images": [
+      {
+        "imageUrl": "assets/images/SuperDry1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/SuperDry2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/SuperDry3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Case Material",
+        "Description": "Plastic"
+      },
+      {
+        "Name": "Band Material",
+        "Description": "Rubber"
+      },
+      {
+        "Name": "Weight",
+        "Description": "35 grams"
+      }
+    ],
+    "type": "Watch"
+  },
+  {
+    "ID": 4,
+    "Name": "Apple iPhone 8 - Space Grey",
+    "DateOfRelease": "04/08/2014",
+    "price": 479.00,
+    "rating": 4.6,
+    "shortDescription": "iPhone 8 Plus introduces an all‑new glass design. The world’s most popular camera, now even better. The smartest, most powerful chip ever in an iPhone. Wireless charging that’s truly effortless. And augmented reality experiences never before possible. iPhone 8. A new generation of iPhone.",
+    "images": [
+      {
+        "imageUrl": "assets/images/iPhone1.png"
+      },
+      {
+        "imageUrl": "assets/images/iPhone2.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Screen Size",
+        "Description": "4.7"
+      },
+      {
+        "Name": "Storage Capacity",
+        "Description": "64 GB"
+      },
+      {
+        "Name": "Weight",
+        "Description": "138 grams"
+      }
+    ],
+    "type": "Phone"
+  },
+  {
+    "ID": 5,
+    "Name": "Samsung Galaxy S10 - Black",
+    "DateOfRelease": "08/08/2019",
+    "price": 609.99,
+    "rating": 4.5,
+    "shortDescription": "The Galaxy S10 takes the classic S series a giant leap further. It features a large curved-edge screen and puts vault-like security at your fingertips with our new Ultrasonic Fingerprint Scanner. With a front camera and 3 rear cameras, including an ultra-wide and ultra-zoom lens, it’s easy to capture every angle of a scene. It also comes with a battery with so much power you’ll be able to share it with your friends. Please note, wireless charge compatible (QI standard) devices only. Battery charge above 30% required to PowerShare on the move without being plugged into mains charge.",
+    "images": [
+      {
+        "imageUrl": "assets/images/Galaxy1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Galaxy2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Galaxy3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Screen Size",
+        "Description": "6.1"
+      },
+      {
+        "Name": "Storage Capacity",
+        "Description": "128 GB"
+      },
+      {
+        "Name": "Weight",
+        "Description": "154 grams"
+      }
+    ],
+    "type": "Phone"
+  },
+  {
+    "ID": 6,
+    "Name": "Huawei Y6 2019",
+    "DateOfRelease": "08/08/2019",
+    "price": 109.36,
+    "rating": 3.9,
+    "shortDescription": "The HUAWEI Y6 2019's 6.09 Dewdrop Display takes the screen-to-body ratio up to 87%, and together with a much smaller notch offers a more futuristic tech feel as well as a more immersive viewing experience. Cameras:13MP f/1.8 rear camera: Excellent performance, at day or night, and 8 MP front camera with a flash: Stunning selfies in any environment. HUAWEI SuperSound: Excellent sound quality at high volume levels and studio-like speaker effects. Huawei lab tests show that the HUAWEI Y6 2019 can easily run for 10 hours in 4G network connection. It can also play music non-stop for 73 hours or local videos for 16 hours.",
+    "images": [
+      {
+        "imageUrl": "assets/images/Huawei1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Huawei2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Huawei3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Screen Size",
+        "Description": "5.8"
+      },
+      {
+        "Name": "Storage Capacity",
+        "Description": "512 GB"
+      },
+      {
+        "Name": "Weight",
+        "Description": "174 grams"
+      }
+    ],
+    "type": "Phone"
+  },
+  {
+    "ID": 7,
+    "Name": "Sony DSCW800B.CEH Digital Compact Camera",
+    "DateOfRelease": "08/08/2019",
+    "price": 69.00,
+    "rating": 4.5,
+    "shortDescription": "Sony DSC-W800 Digital Compact Camera (20.1 MP, 5x Zoom, 2.7 LCD, 720p HD, 26 mm Sony G Lens) - Black.",
+    "images": [
+      {
+        "imageUrl": "assets/images/Sony1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Sony2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Sony3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Display Size",
+        "Description": "2.7 inches"
+      },
+      {
+        "Name": "Optical Sensor Resolution",
+        "Description": "20.1 megapixels"
+      },
+      {
+        "Name": "Weight",
+        "Description": "109 grams"
+      }
+    ],
+    "type": "Camera"
+  },
+  {
+    "ID": 8,
+    "Name": "Kodak PIXPRO FZ152 Camera - Black",
+    "DateOfRelease": "08/08/2019",
+    "price": 77.92,
+    "rating": 4.0,
+    "shortDescription": "Introducing the KODAK PIXPRO AZ421 digital camera from the Astro Zoom Collection. A 42x ultra long zoom lens with optical image stabilization delivers crisp, clear 16 megapixel close-ups, panorama or HD videos. Auto scene, object tracking, post-editing features and a host of powerful yet user-friendly settings make photography easy, fun and zero hassle.",
+    "images": [
+      {
+        "imageUrl": "assets/images/Kodak1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Kodak2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Kodak3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Display Size",
+        "Description": "3.1 inches"
+      },
+      {
+        "Name": "Optical Sensor Resolution",
+        "Description": "18.9 megapixels"
+      },
+      {
+        "Name": "Weight",
+        "Description": "189 grams"
+      }
+    ],
+    "type": "Camera"
+  },
+  {
+    "ID": 9,
+    "Name": "Canon EOS 4000D DSLR Camera and EF-S",
+    "DateOfRelease": "08/08/2019",
+    "price": 278.99,
+    "rating": 4.8,
+    "shortDescription": "Tell distinctive stories. Create outstanding photos and movies full of detail and colour with this easy to use 18 Megapixel DSLR. Instantly share and shoot remotely with Wi-Fi and the Canon Connect app.",
+    "images": [
+      {
+        "imageUrl": "assets/images/Canon1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Canon2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Canon3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Display Size",
+        "Description": "2.5 inches"
+      },
+      {
+        "Name": "Optical Sensor Resolution",
+        "Description": "28.9 megapixels"
+      },
+      {
+        "Name": "Weight",
+        "Description": "354 grams"
+      }
+    ],
+    "type": "Camera"
+  },
+  {
+    "ID": 10,
+    "Name": "Dell XPS 13",
+    "DateOfRelease": "04/06/2017",
+    "price": 1449,
+    "rating": 4,
+    "shortDescription": "With the miniaturised the HD webcam to fit it into the top InfinityEdge border. Your entertainment can go with you everywhere - starting at just 2.67 pounds, the smaller, thinner, lighter XPS 13 is ready for take-off. So ideally sized for airplane tray tables, you won’t even notice when the passenger in front of you reclines their seat. With 8th Gen Intel Core processors, more cores means increased performance, even with multiple applications running. Plus, Dell Power Manager, engineered by Dell, allows you to select the power mode that dynamically delivers the maximum amount of power from your processor, while intelligently monitoring and managing system temperatures. Add it all up and you get the most powerful 13 Inch laptop in its class.",
+    "images": [
+      {
+        "imageUrl": "assets/images/DellXps1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/DellXps2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/DellXps3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Display Size",
+        "Description": "13 inches"
+      },
+      {
+        "Name": "Operating System",
+        "Description": "Mac OS"
+      },
+      {
+        "Name": "Weight",
+        "Description": "1.25 Kg"
+      }
+    ],
+    "type": "Laptop"
+  },
+  {
+    "ID": 11,
+    "Name": "Apple MacBook Air",
+    "DateOfRelease": "04/06/2017",
+    "price": 999,
+    "rating": 4.6,
+    "shortDescription": "The MacBook Air is a line of laptop computers developed and manufactured by Apple Inc. It consists of a full-size keyboard, a machined aluminum case, and a thin light structure. The Air was originally positioned as a premium ultraportable positioned above the previous MacBook line.",
+    "images": [
+      {
+        "imageUrl": "assets/images/MacBook1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/MacBook2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/MacBook3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Display Size",
+        "Description": "13.3 inches"
+      },
+      {
+        "Name": "Operating System",
+        "Description": "Windows 10 Home"
+      },
+      {
+        "Name": "Weight",
+        "Description": "1.23 Kg"
+      }
+    ],
+    "type": "Laptop"
+  },
+  {
+    "ID": 12,
+    "Name": "Microsoft Surface Laptop 3",
+    "DateOfRelease": "04/06/2017",
+    "price": 849.99,
+    "rating": 5,
+    "shortDescription": "Enhance ideas begin with self expression. Surface Laptop 3 fuels inspiration and reflects your style with a thin, light design, colours and typing comfort in two keyboard finishes. Open effortlessly and feel the rich, warm alcantara or cool, enhance metal. Bring your vision to life on the vibrant pixelsense display, available in two sizes - 13.5 Inch or enhance, larger 15 Inch touchscreen. Listen to the omnisonic speakers, discreetly hidden below the keyboard and starting at just 1.2 kg, you can carry it all day.",
+    "images": [
+      {
+        "imageUrl": "assets/images/Surface1.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Surface2.jpg"
+      },
+      {
+        "imageUrl": "assets/images/Surface3.jpg"
+      }
+    ],
+    "specs": [
+      {
+        "Name": "Display Size",
+        "Description": "13.5 inches"
+      },
+      {
+        "Name": "Operating System",
+        "Description": "Windows 10 Home"
+      },
+      {
+        "Name": "Weight",
+        "Description": "1.15 Kg"
+      }
+    ],
+    "type": "Laptop"
+  }
+
+
+]
