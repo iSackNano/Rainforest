@@ -3,14 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\errors",
-    "\\src\\app\\home",
+    "\\src\\app\\checkout",
     "\\src\\app\\product-details",
     "\\src\\app\\product-grid",
     "\\src\\app\\product-list",
     "\\src\\app\\product-table",
+    "\\src\\app\\shared",
     "\\src\\app\\shopping-basket"
   ],
-  "SelectedNode": "\\src\\app\\errors\\404.component.ts",
+  "SelectedNode": "\\src\\app\\checkout\\checkout.component.ts",
   "PreviewInSolutionExplorer": false
 }
